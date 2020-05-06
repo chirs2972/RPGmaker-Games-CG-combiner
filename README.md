@@ -14,8 +14,8 @@ This tool is made by python3 with PIL moudle, using to combine cg from dump RPGm
 3. 點擊RPGmakerCGcombiner.exe運行 或者在cmd介面，切換至目錄下後，輸入python RPGmakerCGcombiner.py
 4. 產生的圖片會在Output資料夾中
 5. 運行delete material pics.bat刪除Base、Input1、Input2、Input3中的所有圖片
-</br>
-# Example/運行範例:
+
+# Example 運行範例:
 
 ![image](https://github.com/chirs2972/RPGmaker-Games-CG-combiner/blob/master/tutorial/tutorial1.JPG)
 ![image](https://github.com/chirs2972/RPGmaker-Games-CG-combiner/blob/master/tutorial/tutorial2.JPG)
