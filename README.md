@@ -17,3 +17,7 @@ This tool is made by python3 with PIL moudle, using to combine cg from dump RPGm
 </br>
 # Example/運行範例:
 
+![image](https://github.com/chirs2972/RPGmaker-Games-CG-combiner/blob/master/tutorial/tutorial1.JPG)
+![image](https://github.com/chirs2972/RPGmaker-Games-CG-combiner/blob/master/tutorial/tutorial2.JPG)
+![image](https://github.com/chirs2972/RPGmaker-Games-CG-combiner/blob/master/tutorial/tutorial3.JPG)
+![image](https://github.com/chirs2972/RPGmaker-Games-CG-combiner/blob/master/tutorial/tutorial4.JPG)
