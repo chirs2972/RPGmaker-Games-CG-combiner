@@ -5,13 +5,13 @@ This tool is made by python3 with PIL moudle, using to combine cg from dump RPGm
 # How to Use:
 1. Base layer pics put in Base folder
 2. Another layer pics put in Input1,Input2,Input3 folder, Base and Input1 folder must contains pics.
-3. Run RPGmakerCGcombiner.exe, or you can type python RPGmakerCGcombiner.py in cmd to run with python
+3. Run RPGmakerCGcombiner.exe, or you can type `python RPGmakerCGcombiner.py` in cmd to run with python
 4. Result pics will occured in Outpt folder
-5. Run delete material pics.bat to delete pics in Base,Input1,Input2,Input3 folder
+5. Run `delete material pics.bat` to delete pics in Base,Input1,Input2,Input3 folder
 # 如何使用:
 1. 將做為基底的圖片放入Base資料夾中
 2. 將需要蓋上去的圖片放入Input1、Input2、Input3中，Base與Input1一定要有圖片，否則會報錯
-3. 點擊RPGmakerCGcombiner.exe運行 或者在cmd介面，切換至目錄下後，輸入python RPGmakerCGcombiner.py
+3. 點擊RPGmakerCGcombiner.exe運行 或者在cmd介面，切換至目錄下後，輸入`python RPGmakerCGcombiner.py`
 4. 產生的圖片會在Output資料夾中
 5. 運行delete material pics.bat刪除Base、Input1、Input2、Input3中的所有圖片
 
