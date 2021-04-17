@@ -1,9 +1,23 @@
 import os, sys
 import glob
 import shutil
+import platform #Used to check platform type
 from PIL import Image
 
 mode = 4
+
+def CheckPlatform():
+        sys = platform.system()  #check platform type
+        if(sys == "Windows"):
+          print ("Windows tasks")
+          fname = fname.split('\\',1)[1]
+        elif(sys == "Linux"):
+          print ("Linux tasks")
+          fname = fname.split('/',1)[1]
+
+if not os.path.exists("Output"): 
+        os.mkdir("Output")    #floder is exist or not
+        print("Output has created")
 
 if not os.path.exists("Input3"): 
 	mode=mode-1    #floder is exist or not
@@ -72,7 +86,7 @@ images2 = glob.glob("Input1/*.png")
 for i in range(0,len(images1)):
 	file = open(images1[i],'rb')
 	fname ,fext = os.path.splitext(images1[i])  #split path and extension name
-	fname = fname.split('\\',1)[1]  #split path and file name
+	CheckPlatfrom()  #split path and file name
 	im1 = Image.open(file)
 	resultpic = Image.new('RGBA',im1.size,(0,0,0,0))
 	im1 = im1.convert('RGBA')
