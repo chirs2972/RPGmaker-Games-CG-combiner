@@ -86,7 +86,7 @@ images2 = glob.glob("Input1/*.png")
 for i in range(0,len(images1)):
 	file = open(images1[i],'rb')
 	fname ,fext = os.path.splitext(images1[i])  #split path and extension name
-	CheckPlatfrom()  #split path and file name
+	CheckPlatform()  #split path and file name
 	im1 = Image.open(file)
 	resultpic = Image.new('RGBA',im1.size,(0,0,0,0))
 	im1 = im1.convert('RGBA')
